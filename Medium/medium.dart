@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print('Program Seleksi Beasiswa');
+  print('Program Seleksi Beasiswa Poliwangi');
 
   stdout.write('Masukkan IPK mahasiswa: ');
   double ipk = double.parse(stdin.readLineSync()!);
