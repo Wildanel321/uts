@@ -28,13 +28,9 @@ void main() {
 
   print('----------------------------------------------');
   print('Total Pemakaian : $pemakaian kWh');
-  print('Tier 1 (0-100 kWh)   : Rp $tier1');
-  if (tier2 > 0) {
-    print('Tier 2 (101-300 kWh) : Rp $tier2');
-  }
-  if (tier3 > 0) {
-    print('Tier 3 (>300 kWh)    : Rp $tier3');
-  }
+  print('Tier 1          : Rp $tier1');
+  if (tier2 > 0) print('Tier 2          : Rp $tier2');
+  if (tier3 > 0) print('Tier 3          : Rp $tier3');
   print('----------------------------------------------');
   print('Total Tagihan   : Rp $totalTagihan');
   print('==============================================');
