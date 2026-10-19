@@ -1,0 +1,19 @@
+# Dart & Pub
+.dart_tool/
+.packages
+pubspec.lock
+build/
+
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+Thumbs.db
+
+# Project temporary data
+*.db.wal
+*.db.tmp
+storage/
+temp/
