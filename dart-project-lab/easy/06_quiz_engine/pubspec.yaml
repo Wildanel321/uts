@@ -1,0 +1,8 @@
+name: quiz_engine
+description: Pure Dart Interactive Quiz Engine with polymorph questions, Fisher-Yates shuffle, timer, and scoring.
+version: 1.0.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dev_dependencies:
+  test: ^1.25.0

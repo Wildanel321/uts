@@ -1,0 +1,17 @@
+export 'src/models/contact.dart';
+export 'src/models/contact_group.dart';
+export 'src/models/contact_stats.dart';
+export 'src/models/search_filter.dart';
+export 'src/models/import_export_result.dart';
+export 'src/exceptions/contact_exception.dart';
+export 'src/exceptions/validation_exception.dart';
+export 'src/repositories/contact_repository.dart';
+export 'src/services/contact_service.dart';
+export 'src/services/search_service.dart';
+export 'src/services/group_service.dart';
+export 'src/services/serialization_service.dart';
+export 'src/validators/contact_validator.dart';
+export 'src/utils/phone_normalizer.dart';
+export 'src/utils/string_similarity.dart';
+export 'src/config/book_config.dart';
+export 'src/application/contact_app.dart';

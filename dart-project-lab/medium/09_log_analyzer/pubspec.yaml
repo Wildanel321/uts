@@ -1,0 +1,8 @@
+name: log_analyzer
+description: Pure Dart Stream Log Analyzer with CLF/custom parsers, error clustering, anomaly detection, and reports.
+version: 1.0.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dev_dependencies:
+  test: ^1.25.0

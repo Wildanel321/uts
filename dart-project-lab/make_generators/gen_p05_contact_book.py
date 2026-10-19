@@ -257,7 +257,7 @@ class ContactValidator {
       throw ValidationException('Contact phone number cannot be empty.');
     }
 
-    final emailRegex = RegExp(r'^[\\w\\-\\.]+@([\\w\\-]+\\.)+[\\w\\-]{2,4}\$');
+    final emailRegex = RegExp(r'^[\w\.\-]+@[\w\.\-]+\.[a-zA-Z]{2,}\$');
     if (contact.email.isNotEmpty && !emailRegex.hasMatch(contact.email)) {
       throw ValidationException('Invalid email address format: ${contact.email}');
     }

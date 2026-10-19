@@ -1,0 +1,8 @@
+name: contact_book
+description: Pure Dart Contact Book CLI with fuzzy Levenshtein search, group tagging, phone normalization, and JSON persistence.
+version: 1.0.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dev_dependencies:
+  test: ^1.25.0
