@@ -1,0 +1,11 @@
+name: password_toolkit
+description: Pure Dart password generator, entropy checker, passphrase maker, and encrypted local vault.
+version: 1.0.0
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  crypto: ^3.0.3
+
+dev_dependencies:
+  test: ^1.25.0
